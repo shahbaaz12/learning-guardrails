@@ -11,6 +11,8 @@ wheels/
 
 # Private settings
 /rule.md
+/roadmap.md
+/AGENTS.md
 .env*
 !.env.example
 .secrets/

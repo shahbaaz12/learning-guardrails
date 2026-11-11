@@ -69,5 +69,3 @@ Follow the projects in this order.
 For the optional Groq cell in Project 2 or 11, copy `.env.example` to `.env` at the repository root and enter your own `GROQ_API_KEY`. Enable the cell by setting `RUN_LIVE` to `True` when you reach it. Keep credentials in `.env`, which Git ignores.
 
 The default local examples have been checked. The optional live model paths still need a learner run.
-
-See the [roadmap](roadmap.md) for the full learning plan.
