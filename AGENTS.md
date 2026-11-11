@@ -1,13 +1,14 @@
 # Instructions for learning agents
 
-Read `rule.md`, `roadmap.md`, `agent-plan.md`, and the active numbered project's
-`readme.md` before changing files or teaching the next step.
+Read `roadmap.md`, `agent-plan.md`, and the active numbered project's `readme.md`
+before changing files or teaching the next step. Read the local `rule.md` when
+available. It is kept outside Git tracking.
 
 The learner initially selected Project 1, then explicitly requested **complete
 the remaining projects** on 29 October 2026. Implement Projects 2–12 as a staged
 batch, including working NeMo and Guardrails AI examples. Keep one short
 notebook and a `readme.md` per project. Follow the standard folder names in
-`rule.md` and include the folders each lesson uses.
+the roadmap and include the folders each lesson uses.
 
 Keep functions simple. No try/except, complex handlers, unnecessary classes,
 or production infrastructure. Expected guard rejections return decisions and

@@ -10,6 +10,7 @@ wheels/
 .venv
 
 # Private settings
+/rule.md
 .env*
 !.env.example
 .secrets/

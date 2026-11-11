@@ -18,7 +18,7 @@ Evals measure behavior, observability exposes execution, and guardrails decide
 whether inputs, outputs, or proposed actions should proceed. We build the
 smallest understandable guard first, then learn what frameworks add.
 
-Follow [rule.md](rule.md). All projects use one root uv environment and VS Code
+All projects use one root uv environment and VS Code
 notebooks. Keep the familiar folder layout. Reuse fictional Cedar Health
 policies when HR examples help, without importing code through sibling folders.
 
@@ -70,7 +70,6 @@ learning-guardrails/
 ├── requirements.txt       # Export of the shared root dependencies
 ├── README.md
 ├── AGENTS.md
-├── rule.md
 ├── roadmap.md
 ├── agent-plan.md
 └── 1_basic_input_guardrails/
