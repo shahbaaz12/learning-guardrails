@@ -1,0 +1,7 @@
+models: []
+colang_version: "1.0"
+passthrough: true
+rails:
+  output:
+    flows:
+      - mask selected email

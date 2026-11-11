@@ -1,0 +1,8 @@
+[
+  {"id": "normal", "kind": "normal", "session": "employee_session", "proposal": {"tool": "request_leave", "arguments": {"employee_id": "EMP-001", "days": 2}}},
+  {"id": "unknown_tool", "kind": "problematic", "session": "employee_session", "proposal": {"tool": "delete_employee", "arguments": {"employee_id": "EMP-001", "days": 2}}},
+  {"id": "wrong_type", "kind": "problematic", "session": "employee_session", "proposal": {"tool": "request_leave", "arguments": {"employee_id": "EMP-001", "days": "2"}}},
+  {"id": "unauthorized_claim", "kind": "problematic", "session": "viewer_session", "proposal": {"tool": "request_leave", "arguments": {"employee_id": "EMP-001", "days": 2}, "permission": "leave:request", "role": "admin"}},
+  {"id": "wrong_employee", "kind": "problematic", "session": "employee_session", "proposal": {"tool": "request_leave", "arguments": {"employee_id": "EMP-999", "days": 2}}},
+  {"id": "range_edge", "kind": "edge", "session": "employee_session", "proposal": {"tool": "request_leave", "arguments": {"employee_id": "EMP-001", "days": 6}}}
+]

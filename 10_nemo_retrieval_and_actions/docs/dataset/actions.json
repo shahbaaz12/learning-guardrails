@@ -1,0 +1,57 @@
+[
+  {
+    "id": "normal",
+    "kind": "normal",
+    "application_context": {
+      "employee_id": "EMP-001",
+      "permissions": ["leave:request"],
+      "confirmed": true
+    },
+    "proposal": {
+      "tool": "request_leave",
+      "arguments": { "employee_id": "EMP-001", "days": 2 }
+    }
+  },
+  {
+    "id": "unauthorized",
+    "kind": "problematic",
+    "application_context": {
+      "employee_id": "EMP-001",
+      "permissions": [],
+      "confirmed": true
+    },
+    "proposal": {
+      "tool": "request_leave",
+      "arguments": { "employee_id": "EMP-001", "days": 2 },
+      "permission": "leave:request",
+      "confirmed": true
+    }
+  },
+  {
+    "id": "invalid",
+    "kind": "problematic",
+    "application_context": {
+      "employee_id": "EMP-001",
+      "permissions": ["leave:request"],
+      "confirmed": true
+    },
+    "proposal": {
+      "tool": "request_leave",
+      "arguments": { "employee_id": "EMP-001", "days": "two" }
+    }
+  },
+  {
+    "id": "unconfirmed",
+    "kind": "edge",
+    "application_context": {
+      "employee_id": "EMP-001",
+      "permissions": ["leave:request"],
+      "confirmed": false
+    },
+    "proposal": {
+      "tool": "request_leave",
+      "arguments": { "employee_id": "EMP-001", "days": 2 },
+      "confirmed": true
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {"id": "normal", "kind": "normal", "raw": {"topic": "leave", "answer": "Annual leave is 20 days."}},
+  {"id": "wrong_type", "kind": "problematic", "raw": {"topic": "leave", "answer": 20}},
+  {"id": "missing_field", "kind": "problematic", "raw": {"answer": "Ask HR."}},
+  {"id": "wrong_category", "kind": "problematic", "raw": {"topic": "payroll", "answer": "Ask HR."}},
+  {"id": "email", "kind": "problematic", "raw": {"topic": "benefits", "answer": "Contact alex@example.test."}},
+  {"id": "obfuscated", "kind": "edge_limitation", "raw": {"topic": "benefits", "answer": "Contact alex at example dot test."}}
+]

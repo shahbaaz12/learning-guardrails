@@ -1,0 +1,14 @@
+[project]
+name = "learning-guardrails"
+version = "0.1.0"
+description = "Small notebook lessons for learning LLM guardrails, validators, and controlled actions."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "guardrails-ai>=0.11.0",
+    "ipykernel>=7.4.0",
+    "jsonschema>=4.26.0",
+    "langchain-groq>=1.1.3",
+    "nemoguardrails>=0.24.1",
+    "python-dotenv>=1.2.4",
+]

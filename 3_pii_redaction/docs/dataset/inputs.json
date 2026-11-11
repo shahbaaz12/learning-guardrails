@@ -1,0 +1,7 @@
+[
+  {"id": "normal", "kind": "normal", "text": "How much annual leave is available?"},
+  {"id": "email", "kind": "problematic", "text": "Send leave details to alex@example.test."},
+  {"id": "plain_phone", "kind": "problematic", "text": "Call 202-555-0123 about benefits."},
+  {"id": "formatted_phone", "kind": "edge", "text": "Call (202) 555-0123 about leave."},
+  {"id": "obfuscated_email", "kind": "limitation", "text": "My email is alex at example dot test."}
+]

@@ -1,0 +1,12 @@
+models: []
+colang_version: "1.0"
+passthrough: true
+custom_data:
+  include_vacation: false
+rails:
+  input:
+    flows:
+      - allow hr input
+  output:
+    flows:
+      - mask email output

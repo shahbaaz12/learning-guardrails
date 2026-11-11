@@ -1,0 +1,44 @@
+[
+  {
+    "id": "normal",
+    "kind": "normal",
+    "raw": {
+      "topic": "leave",
+      "confidence": 0.95,
+      "answer": "Annual leave is 20 days."
+    }
+  },
+  {
+    "id": "missing",
+    "kind": "problematic",
+    "raw": { "topic": "leave", "confidence": 0.95 }
+  },
+  {
+    "id": "wrong_type",
+    "kind": "problematic",
+    "raw": { "topic": "benefits", "confidence": "high", "answer": "Ask HR." }
+  },
+  {
+    "id": "wrong_label",
+    "kind": "problematic",
+    "raw": { "topic": "payroll", "confidence": 0.95, "answer": "Ask HR." }
+  },
+  {
+    "id": "edge",
+    "kind": "edge",
+    "raw": {
+      "topic": "other",
+      "confidence": 0.5,
+      "answer": "The available policy does not answer this."
+    }
+  },
+  {
+    "id": "wrong_fact",
+    "kind": "limitation",
+    "raw": {
+      "topic": "leave",
+      "confidence": 0.95,
+      "answer": "Annual leave is 200 days."
+    }
+  }
+]

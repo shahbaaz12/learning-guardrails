@@ -1,0 +1,5 @@
+{
+  "provenance": "AI-authored draft sensitivity judgments for synthetic examples, not human-reviewed labels",
+  "should_mask": {"normal": false, "conventional": true, "obfuscated": true, "public_example": false, "bracketed": true},
+  "public_example_reason": "The app wants public documentation placeholders preserved; this context-sensitive draft expectation intentionally conflicts with a context-free pattern."
+}

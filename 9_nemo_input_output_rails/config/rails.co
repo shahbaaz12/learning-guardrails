@@ -1,0 +1,11 @@
+define bot refuse input
+  "Please ask about Cedar Health leave or benefits."
+
+define flow allow hr input
+  $allowed = execute allow_hr_input
+  if not $allowed
+    bot refuse input
+    stop
+
+define flow mask email output
+  $bot_message = execute mask_email_output(text=$bot_message)

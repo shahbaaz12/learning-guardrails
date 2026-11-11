@@ -1,0 +1,27 @@
+define flow mask retrieved
+  $relevant_chunks = execute mask_context(text=$relevant_chunks)
+
+define bot provide policy
+  "$relevant_chunks"
+
+define bot denied
+  "Action denied by the application guard."
+
+define bot needs confirmation
+  "Application confirmation is required."
+
+define bot submitted
+  "Local mock leave request submitted."
+
+define flow submit leave
+  user submit leave
+  $allowed = execute is_allowed
+  if not $allowed
+    bot denied
+    stop
+  $confirmed = execute is_confirmed
+  if not $confirmed
+    bot needs confirmation
+    stop
+  execute submit_mock
+  bot submitted

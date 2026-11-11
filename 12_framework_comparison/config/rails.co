@@ -1,0 +1,2 @@
+define flow mask selected email
+  $bot_message = execute mask_selected_email(text=$bot_message)

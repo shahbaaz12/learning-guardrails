@@ -1,0 +1,7 @@
+[
+  {"id": "normal", "kind": "normal", "text": "Annual leave is 20 days."},
+  {"id": "conventional", "kind": "problematic", "text": "Personal contact: alex@example.test."},
+  {"id": "obfuscated", "kind": "edge", "text": "Personal contact: alex at example dot test."},
+  {"id": "public_example", "kind": "edge_false_positive", "text": "Documentation placeholder: support@example.test."},
+  {"id": "bracketed", "kind": "limitation", "text": "Personal contact: alex [at] example [dot] test."}
+]

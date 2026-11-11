@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Private settings
+.env*
+!.env.example
+.secrets/
+*.key
+*.pem
+
+# Notebook, model, and store artifacts
+.ipynb_checkpoints/
+.cache/
+chroma_store/
+*.log
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

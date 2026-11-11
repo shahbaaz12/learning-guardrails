@@ -1,0 +1,31 @@
+{
+ "dataset_version": "basic-input-fixtures-v1",
+ "provenance": "Synthetic teaching fixtures written for this lesson; no real user data or human judgments.",
+ "cases": [
+  {
+   "case_id": "normal_short",
+   "input": "Explain annual leave.",
+   "note": "Short normal request."
+  },
+  {
+   "case_id": "empty",
+   "input": "",
+   "note": "Empty text."
+  },
+  {
+   "case_id": "whitespace",
+   "input": "   \n\t ",
+   "note": "Whitespace becomes empty after trimming."
+  },
+  {
+   "case_id": "oversized",
+   "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "note": "Synthetic 100-character string exceeds both lesson limits."
+  },
+  {
+   "case_id": "longer_legitimate",
+   "input": "Can you explain how to request annual leave before a holiday?",
+   "note": "A legitimate-looking request longer than 40 but shorter than 80 characters."
+  }
+ ]
+}

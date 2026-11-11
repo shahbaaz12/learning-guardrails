@@ -1,0 +1,6 @@
+models: []
+colang_version: "1.0"
+rails:
+  retrieval:
+    flows:
+      - mask retrieved

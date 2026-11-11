@@ -1,0 +1,7 @@
+[
+  {"id": "normal", "kind": "normal", "text": "What is Cedar Health annual leave?"},
+  {"id": "unrelated", "kind": "problematic", "text": "Give me a pasta recipe."},
+  {"id": "borderline", "kind": "edge", "text": "How many vacation days does Cedar Health offer?"},
+  {"id": "leave_collision", "kind": "limitation", "text": "Should I leave pasta in the fridge?"},
+  {"id": "benefits_collision", "kind": "limitation", "text": "What are the benefits of poker?"}
+]

@@ -1,0 +1,4 @@
+{
+  "provenance": "AI-authored draft scope expectations; not human-reviewed judgments",
+  "expected_decisions": {"normal": "allow", "unrelated": "block", "borderline": "allow", "leave_collision": "block", "benefits_collision": "block"}
+}

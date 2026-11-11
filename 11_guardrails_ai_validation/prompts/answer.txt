@@ -1,0 +1,3 @@
+Return only a JSON object with topic (leave, benefits, or other) and answer
+(a nonempty string). Fictional Cedar Health annual leave is 20 days for
+full-time employees. Say the supplied policy does not answer other questions.

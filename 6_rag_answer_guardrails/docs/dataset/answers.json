@@ -1,0 +1,7 @@
+[
+  {"id": "normal", "kind": "normal", "question": "How much annual leave do full-time employees get?", "response": {"answer": "Annual leave is 20 days for full-time employees.", "citations": ["LEAVE-1"], "abstain": false}},
+  {"id": "unknown_citation", "kind": "problematic", "question": "How much annual leave is available?", "response": {"answer": "Annual leave is 20 days.", "citations": ["LEAVE-99"], "abstain": false}},
+  {"id": "unsupported", "kind": "edge", "question": "What is the salary increase next year?", "response": {"answer": "The supplied policies do not answer the salary question.", "citations": [], "abstain": true}},
+  {"id": "wrong_days", "kind": "problematic", "question": "How much annual leave is available?", "response": {"answer": "Annual leave is 200 days for full-time employees.", "citations": ["LEAVE-1"], "abstain": false}},
+  {"id": "unchecked_claim", "kind": "limitation", "question": "Do contractors have unlimited leave?", "response": {"answer": "All contractors receive unlimited leave.", "citations": ["LEAVE-1"], "abstain": false}}
+]

@@ -1,0 +1,7 @@
+{
+  "provenance": "Fictional application-owned authenticated session data; never supplied by a proposal/model",
+  "contexts": {
+    "employee_session": {"employee_id": "EMP-001", "allowed_tools": ["request_leave"], "permissions": ["leave:request"]},
+    "viewer_session": {"employee_id": "EMP-001", "allowed_tools": [], "permissions": []}
+  }
+}

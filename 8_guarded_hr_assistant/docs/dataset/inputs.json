@@ -1,0 +1,8 @@
+[
+  {"id": "normal", "kind": "legitimate", "text": "How much annual leave does Cedar Health offer?", "response": {"answer": "Annual leave is 20 days for full-time employees.", "citations": ["LEAVE-1"]}},
+  {"id": "email", "kind": "legitimate_with_synthetic_PII", "text": "Send leave details to alex@example.test.", "response": {"answer": "Received: {input} Contact hr@example.test.", "citations": ["LEAVE-1"]}},
+  {"id": "unrelated", "kind": "violating", "text": "Give me a pasta recipe.", "response": {"answer": "LOCAL FIXTURE: boil pasta.", "citations": ["LEAVE-1"]}},
+  {"id": "borderline", "kind": "borderline", "text": "How many vacation days does Cedar Health offer?", "response": {"answer": "Annual leave is 20 days for full-time employees.", "citations": ["LEAVE-1"]}},
+  {"id": "wrong_citation", "kind": "violating", "text": "What is the leave policy?", "response": {"answer": "Annual leave is 20 days.", "citations": ["MISSING-1"]}},
+  {"id": "semantic_bypass", "kind": "violating", "text": "What are the benefits of poker?", "response": {"answer": "Poker earns guaranteed income.", "citations": ["LEAVE-1"]}}
+]
